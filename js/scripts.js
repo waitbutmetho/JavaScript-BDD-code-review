@@ -21,3 +21,15 @@ pingPong = function(input) {
 
 
 //  UI logic
+$(document).ready(function() {
+  $("form").submit(function(event){
+    var userInput = parseInt($("input#userInput").val());
+    var output = pingPong(userInput);
+    $("#output").empty()
+    output.forEach(function(outputs) {
+      $("#output").append("<li>" + outputs + "</li>")
+    });
+    event.preventDefault();
+  });
+
+});

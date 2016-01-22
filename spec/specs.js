@@ -1,4 +1,5 @@
 describe("pingPong", function(){
-  it("return ping for numbers that are divisible by 3", function() {
-    expect(countUp(9)).to.equal("ping");
+  it("return numbers from 1 to the number input, but replace all numbers divisible by three with ping", function() {
+    expect(pingPong(3)).to.eql([1, 2, "ping"]);
   });
+});

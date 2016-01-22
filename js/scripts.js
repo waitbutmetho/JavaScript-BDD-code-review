@@ -4,6 +4,9 @@ pingPong = function(input) {
     if (index % 3 !== 0 && index % 5 !== 0) {
       resultArray.push(index)
     }
+    else if (index % 5 === 0){
+      resultArray.push("pong");
+    }
     else if (index % 3 === 0){
       resultArray.push("ping");
     }

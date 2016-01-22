@@ -1,3 +1,4 @@
+//  Business Logic
 pingPong = function(input) {
   var resultArray = [];
   for (var index = 1; index <= input; index++) {
@@ -16,3 +17,7 @@ pingPong = function(input) {
   };
   return resultArray;
 };
+
+
+
+//  UI logic

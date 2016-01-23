@@ -14,21 +14,26 @@
   	<script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
-    <div>
-    <h1>Ping-Pong</h1>
-
+      <h1>Ping-Pong</h1>
+      <p>
+        Enter a positive number and the program will count up to that number except<br>
+         Numbers divisible by 3 are replaced with "ping"<br>
+         Numbers divisible by 5 are replaced with "pong"<br>
+         Numbers divisible by 15 are replaced with "pingpong"
+      </p>
     <form id="pingForm">
-      <div>
+      <div class="inputColor">
         <p>
           <label for="userInput"></label>
           <input id="userInput" type="number">
         </p>
       </div>
 
-      <button type="submit" class="btn">GO!</button>
+      <button type="submit" class="btn">Play Ping Pong!</button>
     </form>
 
     <div id="result">
       <p><span id="output"></span></p>
+    </div>
   </body>
 </html>

@@ -1,0 +1,14 @@
+h1 {
+  font-size: 3em;
+}
+
+body {
+  font-size: 200%;
+  color: white;
+  text-align: center;
+  background-image: url(../img/pongtable.png);
+}
+
+.inputColor {
+  color: black;
+}
